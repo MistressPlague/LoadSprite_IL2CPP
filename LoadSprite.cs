@@ -19,7 +19,7 @@ namespace LoadSprite
                 return null;
             }
 
-            Texture2D tex = new Texture2D(2, 2);
+            Texture2D tex = new Texture2D(512, 512);
 
             if (!Il2CppImageConversionManager.LoadImage(tex, data))
             {
